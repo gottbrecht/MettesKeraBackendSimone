@@ -48,7 +48,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'MettesBackendSimone'
+          app-name: 'MettesKeraBackendSimone'
           slot-name: 'Production'
           package: '*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_715D7D6E61E94A86A2041718405A250D }}
