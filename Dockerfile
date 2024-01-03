@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-jdk-bullseye
 WORKDIR /app
 
 # Copy Maven Wrapper and pom.xml
